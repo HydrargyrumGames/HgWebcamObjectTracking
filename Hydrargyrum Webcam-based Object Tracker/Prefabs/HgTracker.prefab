@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3549321786364508424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2740447566307234331}
+  - component: {fileID: 9215587995155151225}
+  m_Layer: 0
+  m_Name: HgTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: c493e06a40821364eaac59602ffa0a27, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2740447566307234331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549321786364508424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9215587995155151225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549321786364508424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e1265e1c4ab4a4086e0f87e494f3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CSMain: {fileID: 7200000, guid: f995f4ed933c11045ace65712471030c, type: 3}
+  WebcamName: 
+  WebcamFiltering: 0
+  WebcamAnsio: 0
+  WebcamResolution: {x: 0, y: 0}
+  UpdateMode: 0
+  Trackers:
+  - MaskY: 0.2989
+    MaskCb: -0.16878884
+    MaskCr: 0.5000245
+    Luma: {r: 1, g: 0, b: 0, a: 0}
+    trackingMode: 1
+    DetectionThreshold: 0.5
+    Smoothing: 0.1
+    Sensitivity: 0.1
+    RawShaderOutput: 0
+    ScreenSpacePositions: 0
+    Invert_X: 0
+    Invert_Y: 0
+    Is_Visible: 0
+    Phase: 3
+    RawPosition: {x: 0, y: 0}
+    DeltaPosition: {x: 0, y: 0}
+    SmoothedPosition: {x: 0, y: 0}
+    TrackerSize: 0
+    OnTrackerEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    OnTrackerHover:
+      m_PersistentCalls:
+        m_Calls: []
+    OnTrackerLeave:
+      m_PersistentCalls:
+        m_Calls: []
+  OutputMaterial: {fileID: 2100000, guid: 51f2cc068d54fc441b5464753bf497fc, type: 2}

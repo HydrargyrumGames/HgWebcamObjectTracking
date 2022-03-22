@@ -1,0 +1,85 @@
+﻿#pragma kernel CSMain
+
+//Input Variables
+RWTexture2D<float4> CSOutput;
+Texture2D<float4> WCT;
+Texture2D<float4> CSInput;
+
+//Main Compute Shader here:
+[numthreads(4,4,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{ 
+    //Get color of current WebcamTexture pixel:
+     float4 Pixel = WCT[id.xy];
+
+     //Boaring Luma-Key stuff:
+     float Y = 0.2989 * Pixel.r + 0.5866 * Pixel.g + 0.1145 * Pixel.b;
+     float Cr = 0.7132 * (Pixel.r - Y);
+     float Cb = 0.5647 * (Pixel.b - Y);
+
+     //Go through all our Trackers, processing them one by one:
+     for (float i = 0.0; i < CSInput[float2(0.0, 0.0)].a; i += 1)
+     {
+         float2 Index1 = float2(i,0.0);
+         float2 Index2 = float2(i,1.0);
+
+         //Get if this Tracker is using 'Median Center' or 'Boundix Box' methods for tracking
+         bool Center = CSInput[Index2].g < 0.5;
+           
+         //Initialize some variables:
+         if(id.x == 0.0 && id.y == 0.0)
+         {
+             CSOutput[Index2] = float4(1.0, 0.0, 0.0, 0.0);
+             if(Center)
+             {
+                 CSOutput[Index1] = float4(0.0, 0.0, 0.0, 0.0);
+             }
+             else
+             {
+                 CSOutput[Index1] = float4(CSInput[Index2].a, 0.0,CSInput[Index2].a, 0.0);
+             }
+         }
+
+         //Calculate the blending factor for current pixel:
+         float blend =1.0- smoothstep(CSInput[Index1].r, CSInput[Index1].r + CSInput[Index1].g, distance(float2(Cr, Cb), float2(CSInput[Index1].b-0.3, CSInput[Index2].r-0.3)));
+
+           //Edit our output data if Detection occurs:
+         if(blend > CSInput[Index2].b)
+         {
+             CSOutput[Index2] = float4(0.0,0.0,0.0,0.0);
+
+             float4 Res = CSOutput[Index1];
+
+             if(Center)
+             {
+                 Res.r += id.x;
+                 Res.g += id.y;
+                 Res.b=1;
+                 Res.a += 1.0;
+             }
+             else
+             {
+                 if (id.x < Res.r)
+                 {
+                     Res.r = id.x;
+                 }
+                 if (id.x > Res.g)
+                 {
+                     Res.g = id.x;
+                 }
+                 if (id.y < Res.b)
+                 {
+                     Res.b = id.y;
+                 }
+                 if (id.y > Res.a)
+                 {
+                     Res.a = id.y;
+                 }
+             }
+
+             CSOutput[Index1]=Res;
+         }
+
+     }
+
+}
