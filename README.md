@@ -32,7 +32,7 @@ Disclaimer: This asset requires a "Color picker / Eye Dropper" to properly set t
 <br>Please consider supporting me via crypto at links below So I can keep on making such useful products! (I live in Iran, so sorry for the lack of PayPal!)
 
 💵BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
-💶ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
-💷BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86
+<br>💶ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
+<br>💷BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86
 
 ⭐Cheers for anyone who is stll reading, Bye!
