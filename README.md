@@ -11,24 +11,24 @@
 ⚜ Please note that this product requires a "Color Picker/ Eyedropper" tool if the Luma color is expected to be changed during runtime; (The Unity editor color picker works just fine in the Editor, and this recombination is only for runtime uses only) 
 
 ⚜ Noted below are the main features of our product:
-<br>🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
-<br>🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
-<br>🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
-<br>🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
-<br>🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
-<br>🏅 Events for a tracker object entering, hovering over and exiting the view of your webcam for ease of use.
-<br>🏅 Advanced visualization shader capable of drawing an unlimited amount of trackers on your screen.
-<br>🏅 Userfriendly and fairly straightforward to use. 
+<br>     🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
+<br>     🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
+<br>     🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
+<br>     🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
+<br>     🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
+<br>     🏅 Events for a tracker object entering, hovering over and exiting the view of your webcam for ease of use.
+<br>     🏅 Advanced visualization shader capable of drawing an unlimited amount of trackers on your screen.
+<br>     🏅 Userfriendly and fairly straightforward to use. 
 
 ⚜Support & Documentation:
-<br>⚠️ For any issues with the product, please consider making a "Github issue" for it to be solved in the next update!
-<br>📚 For documentation on how to use the product, please check out the Documentation.pdf file located in the Documentation folder!
-<br>🆘️If you need any help with using any part of the software, please consider contacting me at Hydrargyrumgames@gmail.com 
+<br>     🔱 For any issues with the product, please consider making a "Github issue" for it to be solved in the next update!
+<br>     🔱 For documentation on how to use the product, please check out the Documentation.pdf file located in the Documentation folder!
+<br>     🔱 If you need any help with using any part of the software, please consider contacting me at Hydrargyrumgames@gmail.com 
 
 ⚜ If you found this product interesting & useful, please consider supporting me via crypto at addresses below so I can keep on developing & updating such these products! (I live in Iran, so sorry for the lack of PayPal!) 
 
-🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
-<br>🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
-<br>🔱BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86 
+     🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
+<br>     🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
+<br>     🔱BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86 
 
 ⚜Also, I'm currently looking for college/ IBDP scholarships with accommodation, so if you know any good ones, I'd be really grateful if you could share the information with me at Hydrargyrumgames@gmail.com! Thanks in advance!
