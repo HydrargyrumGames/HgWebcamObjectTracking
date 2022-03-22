@@ -1,38 +1,34 @@
-# Hydrargyrum Games Webcam-Based Object-Tracking Solution
+# Hydrargyrum Games Webcam-Based Object-Tracking Solution 
 
-⭐Quick Summary of Product:
-<br>"Hydrargyrum Object-Tracking solution" is a Chroma-Key based Object-Tracking solution packed with a wide range of features and equipped with a wide range of settings for Unity game engine users;
+⚜⚜ In the memmory of my cousin, Pouya Hashemzade who inspired me to learn programming in the first place! I owe a lot of what I've been able to achieve today to him; May him Rest in peace! 
 
-⭐Detailed Describtion of Product: 
-<br>This is an independent, completely transparent, and customizable Object-Tracking solution using Chroma-Key and Luma-Key technologies. It Does Not need any “OpenCV” or any other similar libraries to work. It works on all platforms that support ComputShader(s) and only needs the Webcam feedback to work properly.
-This asset uses the "Contrast difference" between the Object you want to track and your environment to properly detect the Screen-Space position of an Object; [Note that this asset relies on Chroma-Keying the object to track its position;]
+⚜ Hydrargyrum Games Object Tracker is a full-fledged open-source object tracking software built around Unity's ComputeShader technology that uses the Luminance difference of the object & backgrounds color to determine the screen-space position of an object; The ease of use & code accessibility that this software grants over all it's main components, makes it probably one of the main few solutions in the field worth checking out! 
 
-Disclaimer: This asset requires a "Color picker / Eye Dropper" to properly set the luma Key color for each Tracker if you are planning to build your game; (The Unity Editor color picker works just fine in the Editor) You might want to either design a solution of yours or use one of many free solutions available on the Asset store;
+⚜ As indicated by the Github page, this product is released under the Mozilla Public License Version 2.0, which allows any contributions to freely comit to the source code, while also prohibiting any use of this software without mentioning its author/ source; For Individuals interested in implementing this product in comericial usecases, The name of our company "Hydrargyrum Games" must be mentioned as the creator of this software; 
 
-⭐Features:
-<br>📌 Access any webcam your device is equipped with simply using Its Name or Index;
-<br>📌 Individual settings menu for Texture Filtering of your webcam;
-<br>📌 Capable of Tracking an unlimited number of objects;
-<br>📌 Capable of Tracking Objects in Update() and Lateupdate() loops for Framerate dependant jobs, While also being capable of Tracking in the FixedUpdate() loop for Physx based projects;
-<br>📌 Precise settings menu for each of the trackers in your scene;
-<br>📌 capable of tracking objects with any key color (Chroma-Key / Luma-Key);
-<br>📌 Events for a Tracker Entering the view, Hovering over the view, and Exiting the view for each tracker in your scene;
-<br>📌 Advanced visualization Shader capable of drawing an unlimited count of Trackers on screen;
-<br>📌 Userfriendly and fairly straightforward to use;
+⚜ Our product is an independent, completely transparent, open-source & customizable object-tracking solution which does not rely on any 3rd part tools such as “OpenCV” or any other similar libraries to work. The product is expected to work on all platforms supporting ComputeShaders and only requires a Unity compatible Webcam to track the approximate screen-space position of an object! 
 
-⭐Support & Documentation:
-<br>🌏 Support Page for all my assets: hydrargyrumgames.github.io/Support.html
-<br>🌏 Documentation for this asset: https://hydrargyrumgames.github.io/HgTracker/Documentation.html [Documentation Also Included in the "Documentation" Folder]
+⚜ Please note that this product requires a "Color Picker/ Eyedropper" tool if the Luma color is expected to be changed during runtime; (The Unity editor color picker works just fine in the Editor, and this recombination is only for runtime uses only) 
 
-⭐Licensing:
-<br>📜 This Product is released under the "Mozilla Public License Version 2.0" License, more information about which, is directly avalible at https://www.mozilla.org/en-US/MPL/2.0/. For Individuals interested in using the product in comericial usecases, The name of our company "Hydrargyrum Games" must be indicated as the creator of this product;
+⚜ Noted below are the main features of our product:
+<br>🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
+<br>🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
+<br>🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
+<br>🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
+<br>🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
+<br>🏅 Events for a tracker object entering, hovering over and exiting the view of your webcam for ease of use.
+<br>🏅 Advanced visualization shader capable of drawing an unlimited amount of trackers on your screen.
+<br>🏅 Userfriendly and fairly straightforward to use. 
 
-⭐Supporting the Dev:
-<br>Found This Product Interesting & Useful?
-<br>Please consider supporting me via crypto at links below So I can keep on making such useful products! (I live in Iran, so sorry for the lack of PayPal!)
+⚜Support & Documentation:
+<br>⚠️ For any issues with the product, please consider making a "Github issue" for it to be solved in the next update!
+<br>📚 For documentation on how to use the product, please check out the Documentation.pdf file located in the Documentation folder!
+<br>🆘️If you need any help with using any part of the software, please consider contacting me at Hydrargyrumgames@gmail.com 
 
-💵BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
-<br>💶ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
-<br>💷BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86
+⚜ If you found this product interesting & useful, please consider supporting me via crypto at addresses below so I can keep on developing & updating such these products! (I live in Iran, so sorry for the lack of PayPal!) 
 
-⭐Cheers for anyone who is stll reading, Bye!
+🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
+<br>🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
+<br>🔱BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86 
+
+⚜Also, I'm currently looking for college/ IBDP scholarships with accommodation, so if you know any good ones, I'd be really grateful if you could share the information with me at Hydrargyrumgames@gmail.com! Thanks in advance!
