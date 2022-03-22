@@ -1,8 +1,7 @@
 # Hydrargyrum Games Webcam-Based Object-Tracking Solution
 
 ⭐Quick Summary of Product:
-
-"Hydrargyrum Object-Tracking solution" is a Chroma-Key based Object-Tracking solution packed with a wide range of features and equipped with a wide range of settings for Unity game engine users;
+<br>"Hydrargyrum Object-Tracking solution" is a Chroma-Key based Object-Tracking solution packed with a wide range of features and equipped with a wide range of settings for Unity game engine users;
 
 ⭐Detailed Describtion of Product: 
 
