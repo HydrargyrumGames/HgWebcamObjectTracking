@@ -27,8 +27,8 @@
 
 ⚜ If you found this product interesting & useful, please consider supporting me via crypto at addresses below so I can keep on developing & updating such these products! (I live in Iran, so sorry for the lack of PayPal!) 
 
-     🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
-<br>     🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
-<br>     🔱BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86 
+🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
+<br>🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
+<br>🔱BNB: bnb17lnzap6f0zhpncr4kxltqwl24xn9m9hs5k7a86 
 
 ⚜Also, I'm currently looking for college/ IBDP scholarships with accommodation, so if you know any good ones, I'd be really grateful if you could share the information with me at Hydrargyrumgames@gmail.com! Thanks in advance!
