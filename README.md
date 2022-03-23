@@ -2,6 +2,10 @@
 
 ⚜⚜ In the memmory of my cousin, Pouya Hashemzade who inspired me to learn programming in the first place! I owe a lot of what I've been able to achieve today to him; May him Rest in peace! 
 
+⚜ Product Showcase Video:
+
+<h1 align="center">|Video Here|</h1>
+
 ⚜ Hydrargyrum Games Object Tracker is a full-fledged open-source object tracking software built around Unity's ComputeShader technology that uses the Luminance difference of the object & backgrounds color to determine the screen-space position of an object; The ease of use & code accessibility that this software grants over all it's main components, makes it probably one of the main few solutions in the field worth checking out! 
 
 ⚜ As indicated by the Github page, this product is released under the Mozilla Public License Version 2.0, which allows any contributions to freely comit to the source code, while also prohibiting any use of this software without mentioning its author/ source; For Individuals interested in implementing this product in comericial usecases, The name of our company "Hydrargyrum Games" must be mentioned as the creator of this software; 
