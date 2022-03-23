@@ -15,14 +15,14 @@
 ⚜ Please note that this product requires a "Color Picker/ Eyedropper" tool if the Luma color is expected to be changed during runtime; (The Unity editor color picker works just fine in the Editor, and this recombination is only for runtime uses only) 
 
 ⚜ Noted below are the main features of our product:
-   -     🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
-   -     🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
-   -     🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
-   -     🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
-   -     🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
-   -     🏅 Events for a tracker object entering, hovering over and exiting the view of your webcam for ease of use.
-   -     🏅 Advanced visualization shader capable of drawing an unlimited amount of trackers on your screen.
-   -     🏅 Userfriendly and fairly straightforward to use. 
+ <br>     🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
+ <br>     🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
+ <br>     🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
+ <br>     🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
+ <br>     🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
+ <br>     🏅 Events for a tracker object entering, hovering over and exiting the view of your webcam for ease of use.
+ <br>     🏅 Advanced visualization shader capable of drawing an unlimited amount of trackers on your screen.
+ <br>     🏅 Userfriendly and fairly straightforward to use. 
 
 ⚜Support & Documentation:
 <br>     🔱 For any issues with the product, please consider making a "Github issue" for it to be solved in the next update!
