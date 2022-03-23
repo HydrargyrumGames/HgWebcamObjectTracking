@@ -2,7 +2,7 @@
 
 ⚜⚜ In the memmory of my cousin, **Pouya Hashemzade** who inspired me to learn programming in the first place! I owe a lot of what I've been able to achieve today to him; May him Rest in peace! 
 
-⚜ Product Showcase Video:
+⚜ Product Showcase Video: (Copyright Text added only for Video purposes, not present in Final Product!)
 
 https://user-images.githubusercontent.com/102142095/159729964-4d57a2d7-b957-4c1a-acca-647b781c28e6.mp4
 
