@@ -1,6 +1,6 @@
 # Hydrargyrum Games Webcam-Based Object-Tracking Solution 
 
-⚜⚜ In the memmory of my cousin, Pouya Hashemzade who inspired me to learn programming in the first place! I owe a lot of what I've been able to achieve today to him; May him Rest in peace! 
+⚜⚜ In the memmory of my cousin, **Pouya Hashemzade** who inspired me to learn programming in the first place! I owe a lot of what I've been able to achieve today to him; May him Rest in peace! 
 
 ⚜ Product Showcase Video:
 
