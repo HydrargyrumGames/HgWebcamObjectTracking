@@ -15,8 +15,8 @@
 ⚜ Please note that this product requires a "Color Picker/ Eyedropper" tool if the Luma color is expected to be changed during runtime; (The Unity editor color picker works just fine in the Editor, and this recombination is only for runtime uses only) 
 
 ⚜ Noted below are the main features of our product:
-<br>     🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
-<br>     🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
+   -     🏅 Easy access to any webcam device equipped on your device by simply using its Name or Index.
+   -    🏅 Capable of Tracking an unlimited number of objects. (Limited only by the device's compute power)
 <br>     🏅 Capable of Tracking Objects in both the Update() and Lateupdate() loops for framerate dependant works, While also being capable of tracking objects in the FixedUpdate() loop for Physics based projects.
 <br>     🏅 Individual settings menus for each of the trackers in your scene offering full control over theirproperties.
 <br>     🏅 Capable of tracking objects with any key color assuming that it's different from the background's.
