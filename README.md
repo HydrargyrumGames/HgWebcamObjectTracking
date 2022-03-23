@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/102142095/159729964-4d57a2d7-b957-4c1a
 <br>     🔱 For documentation on how to use the product, please check out the Documentation.pdf file located in the Documentation folder!
 <br>     🔱 If you need any help with using any part of the software, please consider contacting me at Hydrargyrumgames@gmail.com 
 
-⚜ If you found this product interesting & useful, please consider supporting me via crypto at addresses below so I can keep on developing & updating such these products! (I live in Iran, so sorry for the lack of PayPal!) 
+⚜ If you found this product interesting & useful, please consider supporting me via crypto at addresses below so I can keep on developing & updating these products! (I live in Iran, so sorry for the lack of PayPal!) 
 
 🔱BTC: bc1q235ljppmkc3sly0z4vkwmame9l6ttnstkmqmel
 <br>🔱ETH: 0xcD2E190688c5c4C4B04B285e352DA004832634c8
